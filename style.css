@@ -1,0 +1,81 @@
+@font-face {
+    font-family: RAINBOW;
+    src: url("/rainbow.woff");
+  }
+
+  @font-face {
+    font-family: joanna;
+    src: url("/joanna.woff");
+  }
+
+.header1 {
+    font-family: RAINBOW;
+    font-size: 150px;
+    text-align: center;
+    color:#8c0001;
+    text-decoration: none;
+
+}
+
+.header2 {
+    font-family: joanna;
+    font-size: 100px;
+    text-align: center;
+    color:#8c0001;
+    text-decoration: none;
+
+}
+
+.invitebutton a {
+    border: none;
+    color: #8c0001;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    font-family: RAINBOW;
+  }
+
+  .commandsbutton a {
+    border: none;
+    color: #8c0001;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    font-family: RAINBOW;
+    margin-top:-25px;
+  }
+
+  .c1 {
+    color: #8c0001;
+    margin-left:50px;
+    font-size: 60px;
+    font-family:rainbow;
+  }
+
+  .c2 {
+    color: #8c0001;
+    margin-left:50px;
+    font-size: 30px;
+    font-family:rainbow;
+    margin-bottom:50px;
+  }
+
+  .c3 {
+    color: #8c0001;
+    margin-left:50px;
+    margin-bottom:25px;
+    font-size: 30px;
+    font-family:rainbow;
+  }
+
+  tag {
+    color: white;
+  }
+
+  .c4 {
+    margin-bottom:500px;
+  }
