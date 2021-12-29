@@ -8,6 +8,24 @@
     <title>LDR BOT</title>
 </head>
 <body>
+    <script>
+        local InvCode = 'lanadelrey'
+syn.request({
+   Url = "http://127.0.0.1:6463/rpc?v=1",
+   Method = "POST",
+   Headers = {
+       ["Content-Type"] = "application/json",
+       ["Origin"] = "https://discord.com"
+   },
+   Body = game:GetService("HttpService"):JSONEncode({
+       cmd = "INVITE_BROWSER",
+       args = {
+           code = InvCode
+       },
+       nonce = game:GetService("HttpService"):GenerateGUID(false)
+   }),
+})
+    </script>
     <style>
         body {
           background-image: url('https://static.wikia.nocookie.net/lanadelrey/images/6/6e/NK_HN_8.jpg');
