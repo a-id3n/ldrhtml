@@ -1,0 +1,38 @@
+IMG.logoimage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    margin-top:10%;
+ }
+
+ IMG.inviteimage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 5%;
+    margin-top:10%;
+ }
+
+ IMG.commandsimage {
+    margin-left: 50%;
+    margin-right: 50%;
+    width: 5%;
+ }
+
+ .group {
+     margin-top:-10%;
+ }
+
+ .flowersimage {
+    position: fixed;
+    bottom: 0;
+  }
+
+.iframe {
+        -moz-user-select: -moz-none;
+        -khtml-user-select: none;
+        -webkit-user-select: none;
+        -o-user-select: none;
+        user-select: none;
+}
